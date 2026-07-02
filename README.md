@@ -10,7 +10,7 @@ The game ships its UI as stripped **LuaJIT 2.1** bytecode packed inside fastfile
 | --- | --- | --- |
 | `1.24 Bnet/` | 1.24 (Battle.net) | ~1,650 |
 | `1.64.5 Bnet/` | 1.64.5 (Battle.net) | ~1,977 |
-| `1.69 Bnet/` | 1.69.0 (Battle.net) | ~1,988 |
+| `1.69 Bnet/` | 1.69 (Battle.net) | ~1,988 |
 
 ## Layout
 
