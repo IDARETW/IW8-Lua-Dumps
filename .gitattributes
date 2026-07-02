@@ -1,0 +1,2 @@
+# Keep dumped files byte-exact — no line-ending normalization
+* -text

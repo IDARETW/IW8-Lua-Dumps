@@ -1,0 +1,260 @@
+﻿SOUND_SETS = {}
+SOUND_SETS.default = {
+	deny = "ui_select_deny",
+	menuDecode = "ui_menu_title_decode_text",
+	action = "ui_select_confirm",
+	cpSelectAlt = "ui_select_alt",
+	back = "ui_select_back",
+	gainFocus = "ui_hilite",
+	selectAlt = "ui_select_alt",
+	popup = "ui_generic_pop_up",
+	tabHighlight = "ui_hilite_tab"
+}
+SOUND_SETS.activeReload = {
+	success = "mp_active_reload_pos",
+	failure = "mp_active_reload_neg"
+}
+SOUND_SETS.jackal = {
+	jackal_lockon_blink = "missile_tag",
+	boostWarning = "jackal_boost_warning",
+	jackal_lockon_complete = "missile_locked",
+	adsOn = "jackal_hud_ads_on",
+	adsOff = "jackal_hud_ads_off"
+}
+SOUND_SETS.bink = {
+	binkOn = "ui_bink_zoom_in",
+	binkOff = "ui_bink_zoom_out"
+}
+SOUND_SETS.shipLog = {
+	open = "sa_ui_log_open_01",
+	nextPage = "sa_ui_log_pageFwd_01",
+	prevPage = "sa_ui_log_pageBack_01",
+	decodeText = "sa_ui_log_decode",
+	close = "sa_ui_log_close_01"
+}
+SOUND_SETS.messages = {
+	intelOut = "ui_intel_splash_close",
+	negativeIn = "ui_popup_negative",
+	intelIncoming = "ui_incoming_msg",
+	incoming = "ui_popup_neutral",
+	intelIn = "ui_intel_splash_open",
+	negativeOut = "ui_popup_negative_out",
+	fluffOut = "ui_popup_outro_shell",
+	fluffIn = "ui_popup_intro_shell"
+}
+SOUND_SETS.countdownTimer = {
+	tic = "ui_mp_countdown_v2"
+}
+SOUND_SETS.zomTutorial = {
+	explosion = "tutorial_laser_explode",
+	fire = "tutorial_laser_fire"
+}
+SOUND_SETS.quests = {
+	newspaper = "ui_newspaper_hit_lr",
+	polaroid = "hud_rave_photo_snapshot"
+}
+SOUND_SETS.cpMainMenuDefault = {
+	splat = "cp_menu_title_intro_slam"
+}
+SOUND_SETS.mainMenu = {
+	focusBR = "ui_blade_right_wz",
+	start = "ui_start_game",
+	focusCP = "ui_blade_right_coop",
+	selectMode = "ui_blade_mode_select",
+	focusMP = "ui_blade_right_multiplayer",
+	focusSP = "ui_blade_right_campaign",
+	focusStore = "ui_blade_right_store"
+}
+SOUND_SETS.spMainMenu = {
+	mapOpen = "ui_sp_missionselect_map_open",
+	detailOpen = "ui_sp_missionselect_box_open",
+	detailClose = "ui_sp_missionselect_box_close",
+	mapClose = "ui_sp_missionselect_map_close"
+}
+SOUND_SETS.mpMainMenu = {
+	tabDepot = "ui_mpmenu_tab_depot",
+	tabWeapons = "ui_mpmenu_tab_weapons",
+	kbmSlide = "ui_mpmenu_wz_playlist_kbm_slide",
+	tabChallenges = "ui_mpmenu_tab_challenges",
+	quickPlayOpen = "ui_mpmenu_quickplay_open",
+	move = "ui_mpmenu_move_down",
+	matchFound = "ui_mpmenu_match_found",
+	tabStore = "ui_mpmenu_tab_prepurchase",
+	tabBattlepass = "ui_mpmenu_tab_battlepass",
+	moveDown = "ui_mpmenu_move_down",
+	moveUp = "ui_mpmenu_move_up",
+	challengePipTab = "ui_other_adjust",
+	tabPlay = "ui_mpmenu_tab_play",
+	quickPlayMove = "ui_mpmenu_quickplay_updown",
+	tabBarracks = "ui_mpmenu_tab_barracks",
+	tabAllegiance = "ui_mpmenu_tab_allegiance",
+	tabOperators = "ui_mpmenu_tab_operators",
+	freeBannerSplash = "ui_iw8_splash_tab_free",
+	matchSearch = "ui_mpmenu_match_search",
+	tabCoalition = "ui_mpmenu_tab_coalition"
+}
+SOUND_SETS.aarrewards = {
+	lineAnim = "ui_aar_line_draw_start",
+	meterIntroRank = "ui_aar_circle_hit_rank",
+	progressFill = "ui_aar_progress_bar",
+	missionTeamMax = "ui_aar_mission_team_max",
+	keysBanked = "ui_iw8_aar_keys_banked",
+	levelUPIntro = "ui_aar_circle_glow_in",
+	equipmentRankUp = "ui_iw8_aar_equipment_rankup",
+	progressCircle = "ui_iw8_aar_progress_circle",
+	levelUpOutro = "ui_aar_circle_glow_out",
+	commendationParade = "ui_iw8_aar_commendation",
+	progressBar = "ui_iw8_aar_progress_bar",
+	meterIntroKeys = "ui_aar_circle_hit_keys",
+	progressCircleStop = "ui_iw8_aar_progress_circle_stop",
+	operatorReveal = "ui_iw8_aar_operator_complete_reveal",
+	sideInfo = "ui_aar_circle_text_type",
+	meterIntroMission = "ui_aar_circle_hit_mission",
+	itemCardIntro = "ui_aar_item_card",
+	supplyDropAvailable = "ui_iw8_aar_supply_drop_available",
+	keysCounterTick = "ui_iw8_aar_keys_counter_tick",
+	perkRankUp = "ui_iw8_aar_perk_rankup",
+	progressStop = "ui_iw8_aar_progress_bar_stop",
+	camoUnlock = "ui_iw8_aar_camo_unlock",
+	attachmentUnlock = "ui_iw8_aar_weapon_unlock",
+	weaponUnlocks = "ui_iw8_aar_weapon_page_reveal",
+	killstreakUnlock = "ui_iw8_aar_killstreak_unlock",
+	playerRankUp = "ui_iw8_aar_player_rankup",
+	unlocks = "ui_iw8_aar_unlocks_reveal",
+	weaponRankUp = "ui_iw8_aar_weapon_rankup"
+}
+SOUND_SETS.aarBattlePass = {
+	lootCardLegendary = "ui_iw8_aar_cardhit_legendary",
+	challengeBonus = "ui_iw8_aar_bp_win_bonus_slam",
+	timeBonus = "ui_iw8_aar_bp_match_bonus_slam",
+	lootCardEpic = "ui_iw8_aar_cardhit_epic",
+	lootCardRare = "ui_iw8_aar_cardhit_rare",
+	matchBonus = "ui_iw8_aar_bp_xp_bonus_slam",
+	lootCardCommon = "ui_iw8_aar_cardhit_common",
+	lootCardUncommon = "ui_iw8_aar_cardhit_uncommon",
+	tierUp = "ui_iw8_aar_bp_tier_rankup",
+	tierProgressBar = "ui_iw8_aar_bp_progress_bar"
+}
+SOUND_SETS.inGame = {
+	potgPopup = "ui_potg_popup",
+	teamMenuTextTyping = "ui_iw7_team_select_text_type",
+	restockLethals = "ui_restock_lethals",
+	killcamPopup = "ui_killcam_popup",
+	nukePopup = "iw8_nuke_countdown_popup",
+	fieldUpgradePopup = "ui_fieldupgrade_popup",
+	wheelPopup = "ui_wheel_popup",
+	restockTactical = "ui_restock_tactical",
+	wheelConfirm = "ui_wheel_confirm",
+	pauseMenuOpen = "ui_select_screen_return",
+	wheelSelect = "ui_wheel_select",
+	nukePopupEnd = "iw8_nuke_countdown_stop",
+	fieldUpgradeConfirm = "ui_fieldupgrade_confirm"
+}
+SOUND_SETS.victory = {
+	intro = "ui_victory_defeat_popup"
+}
+SOUND_SETS.aarscoreboard = {
+	intro = "ui_aar_post_match_scoreboard"
+}
+SOUND_SETS.prestige = {
+	prestigeCancel = "ui_select_prestige_cancel",
+	prestigeEnter = "ui_select_prestige_enter",
+	prestigeUnlock = "ui_select_prestige_unlock"
+}
+SOUND_SETS.CodCaster = {
+	announcement = "ui_iw7_cod_cast"
+}
+SOUND_SETS.popups = {
+	privateSelect = "ui_mpmenu_privatematch_select",
+	privatePopup = "ui_mpmenu_privatematch_popup",
+	lobbyConfirm = "ui_lobby_confirm_select",
+	lobbyAlert = "ui_lobby_alert_popup"
+}
+SOUND_SETS.battlePass = {
+	bpPurchaseLast = "ui_iw8_bp_cards_received_hilite_last",
+	bpRare = "ui_iw8_bp_cardhit_rare",
+	bpComplete = "ui_iw8_bp_complete_fullscreen",
+	bpTierPurchase = "ui_iw8_bp_tier_purchase_fullscreen",
+	bpCardHighlight = "ui_iw8_bp_hilite",
+	bpPurchaseSelect = "ui_select_alt_bp",
+	bpPurchaseWindow = "ui_bp_window_appear",
+	bpLegendary = "ui_iw8_bp_cardhit_legendary",
+	bpEpic = "ui_iw8_bp_cardhit_epic",
+	bpLoadingBar = "ui_iw8_bp_loading_background",
+	bpPurchaseFirst = "ui_iw8_bp_cards_received_hilite_first",
+	bpBase = "ui_iw8_bp_cardhit_common",
+	bpCommon = "ui_iw8_bp_cardhit_uncommon",
+	bpPurchaseCard = "ui_iw8_bp_cards_received_hilite"
+}
+SOUND_SETS.storefront = {
+	openConfirmationPopup = "ui_store_confirm_purchase_window_open",
+	smokePoof = "ui_store_cards_bp_smokepuff",
+	triggerNavigation = "ui_iw8_store_l2r2",
+	purchaseCODPointsPopup = "ui_blade_open_store",
+	windowAppear = "ui_store_window_appear",
+	purchaseBundle = "ui_select_alt_store",
+	smokeCardSlam = "ui_store_cards_bp_smokecard_slam",
+	cardFlipFirst = "ui_store_cards_flip_first",
+	selectionConfirmed = "ui_store_select_confirm",
+	cardFlipLast = "ui_store_cards_flip_last",
+	purchaseBundleComplete = "ui_iw8_store_complete_fullscreen",
+	cardFlipMiddle = "ui_store_cards_flip"
+}
+SOUND_SETS.plunder = {
+	bankAdded = "ui_iw8_plunder_banked_bar",
+	teamPlunderLost = "ui_iw8_plunder_team_lost_bar",
+	teamPlunderLostStop = "ui_iw8_plunder_team_lost_bar_stop",
+	playerPlunderLostStop = "ui_iw8_plunder_player_lost_stop",
+	bankAddedStop = "ui_iw8_plunder_banked_bar_stop",
+	firstPlace = "ui_iw8_plunder_1stplace",
+	playerPlunderLost = "ui_iw8_plunder_player_lost",
+	plunderAddedStop = "ui_iw8_plunder_added_bar_stop",
+	plunderAdded = "ui_iw8_plunder_added_bar"
+}
+SOUND_SETS.brAAR = {
+	contract_start = "ui_iw8_br_aar_contracts_start",
+	matchTotal_rise = "ui_iw8_br_aar_matchtotal_rise",
+	secondPlace = "ui_iw8_br_aar_rank_secondplace",
+	moneyCounter = "ui_iw8_payback_victory_counter",
+	matchBonus_stop = "ui_iw8_br_aar_matchbonus_stop",
+	contract_stop = "ui_iw8_br_aar_contracts_stop",
+	moneyCounter_stop = "ui_iw8_payback_victory_end_slam",
+	cash_stop = "ui_iw8_br_aar_cash_stop",
+	placement_start = "ui_iw8_br_aar_placement_start",
+	firstPlace = "ui_iw8_br_aar_rank_firstplace",
+	matchBonus_start = "ui_iw8_br_aar_matchbonus_start",
+	placement_rise = "ui_iw8_br_aar_placement_rise",
+	cash_rise = "ui_iw8_br_aar_cash_rise",
+	matchTotal_stop = "ui_iw8_br_aar_matchtotal_stop",
+	placement_stop = "ui_iw8_br_aar_placement_stop",
+	combat_rise = "ui_iw8_br_aar_combat_rise",
+	cash_start = "ui_iw8_br_aar_cash_start",
+	matchTotal_start = "ui_iw8_br_aar_matchtotal_start",
+	thirdPlace = "ui_iw8_br_aar_rank_thirdplace",
+	genericPlace = "ui_iw8_br_aar_rank_genericplace",
+	combat_stop = "ui_iw8_br_aar_combat_stop",
+	combat_start = "ui_iw8_br_aar_combat_start",
+	matchBonus_rise = "ui_iw8_br_aar_matchbonus_rise",
+	contract_rise = "ui_iw8_br_aar_contracts_rise",
+	rank_up = "ui_iw8_br_aar_player_rankup"
+}
+SOUND_SETS.brKeypad = {
+	blink = "ui_keypad_blink",
+	press7 = "ui_keypad_press_7",
+	press2 = "ui_keypad_press_2",
+	pressBack = "ui_keypad_press_back",
+	success = "ui_keypad_success",
+	press5 = "ui_keypad_press_5",
+	pressNumber = "ui_keypad_press_number",
+	press0 = "ui_keypad_press_0",
+	press3 = "ui_keypad_press_3",
+	press8 = "ui_keypad_press_8",
+	fail = "ui_keypad_fail",
+	press6 = "ui_keypad_press_6",
+	press1 = "ui_keypad_press_1",
+	press9 = "ui_keypad_press_9",
+	press4 = "ui_keypad_press_4"
+}
+SOUND_SETS.masteryChallenges = {
+	completeSplash = "ui_master_challenge_complete_splash"
+}
